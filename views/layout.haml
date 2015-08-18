@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title simple tab page
+
+    = Rack::JQuery.cdn env
+    = Rack::JQueryUI.cdn env
+    = Rack::JQueryUI::Themes.cdn env
+
+    :javascript
+      $(document).ready(function() {
+          $( "#tabs" ).tabs();
+      });
+%body
+  = yield
