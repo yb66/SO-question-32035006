@@ -3,9 +3,11 @@
   %head
     %title simple tab page
 
-    = Rack::JQuery.cdn env
-    = Rack::JQueryUI.cdn env
-    = Rack::JQueryUI::Themes.cdn env
+    %script{:type => "text/javascript", :src  => "external/jquery/jquery.js"}
+    %script{:type => "text/javascript", :src  => "jquery-ui.min.js"}
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "jquery-ui.min.css"}
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "jquery-ui.structure.min.css"}
+    %link{:rel => :stylesheet, :type => :"text/css", :href => "jquery-ui.theme.min.css"}
 
     :javascript
       $(document).ready(function() {

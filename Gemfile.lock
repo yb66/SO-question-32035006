@@ -4,17 +4,6 @@ GEM
     haml (4.0.7)
       tilt
     rack (1.6.4)
-    rack-jquery (2.1.0)
-      rack
-      rack-jquery-helpers
-    rack-jquery-helpers (0.0.1)
-      rack (~> 1.4)
-    rack-jquery_ui (3.0.0)
-      rack
-      rack-jquery-helpers
-    rack-jquery_ui-themes (3.0.0)
-      rack
-      rack-jquery-helpers
     rack-protection (1.5.3)
       rack
     sinatra (1.4.6)
@@ -28,9 +17,6 @@ PLATFORMS
 
 DEPENDENCIES
   haml
-  rack-jquery
-  rack-jquery_ui
-  rack-jquery_ui-themes
   sinatra
 
 BUNDLED WITH
