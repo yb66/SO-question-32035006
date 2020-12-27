@@ -3,7 +3,7 @@ GEM
   specs:
     haml (4.0.7)
       tilt
-    rack (1.6.4)
+    rack (1.6.13)
     rack-jquery (2.1.0)
       rack
       rack-jquery-helpers
@@ -15,7 +15,7 @@ GEM
     rack-jquery_ui-themes (3.0.0)
       rack
       rack-jquery-helpers
-    rack-protection (1.5.3)
+    rack-protection (1.5.5)
       rack
     sinatra (1.4.6)
       rack (~> 1.4)
